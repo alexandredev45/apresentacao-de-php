@@ -1,0 +1,60 @@
+.box{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    perspective: 3000px;
+    perspective-origin: 0px -500px;
+}
+.cubo{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: girar 5s infinite linear;
+}
+@keyframes pula{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(30px);
+    }
+}
+@keyframes girar{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+.cara{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#um{
+    background-color: crimson;
+    transform: translateZ(100px)
+}
+#dois{
+    background-color: black;
+    background-size: cover;
+    transform: translateX(100px) rotateY(90deg);
+}
+#tres{
+    background-color: yellow;
+    transform: translateZ(-100px);
+}
+#quatro{
+    background-color: blue;
+    transform: translateX(-100px) rotateY(90deg);
+}
+#cinco{
+    background-color: green;
+    transform: translateY(-100px) rotateX(90deg);
+}
+#seis{
+    background-color: wheat;
+    transform: translateY(100px) rotateX(90deg);
+}

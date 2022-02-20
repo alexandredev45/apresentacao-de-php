@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--css puro-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cubo-style.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="container-fluid bg-info">
+        <!--titulo principal-->
+        <div class="titulo bg-black">
+            <h1>Apresentação De PHP</h1>
+        </div>
+        <!--carrosel-->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-carrossel" src="img/carrossel-02-img.jpg" class="img-carousel d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img class="img-carrossel" src="img/carrossel-03-img.jpg" class="img-carousel d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img class="img-carrossel" src="img/carrossel-02-img.jpg" class="img-carousel d-block w-100" alt="...">
+            </div>
+            </div>
+        </div>
+        <!--conteudo-->
+        <h2 class="h1">Pra que serve o PHP ? (Marcio Alves)</h2>
+        <p class="fomataçao-texto">
+            É uma linguagem de script open source de uso geral, muito utilizada, e especialmente adequada para o desenvolvimento web e que pode ser embutida dentro do HTML.
+        </p>
+
+        <h2 class="h1">A História do PHP</h2>
+        <p class="fomataçao-texto">
+            O PHP, como é conhecido hoje, é na verdade o sucessor para um produto chamado PHP/FI. Criado em 1994 por Rasmus Lerdof, a primeira encarnação do PHP foi um simples conjunto de binários Common Gateway Interface (CGI) escrito em linguagem de programação C.
+            Em Junho de 1995, Rasmus liberou o código fonte do PHP para o público, o que permitiu que desenvolvedores o utilizassem da forma como desejassem. Isso permitiu e encorajou usuários a fornecer correções para bugs no código e, em geral, aperfeiçoá-lo.
+            Em 1997 e 1998, PHP/FI teve o apoio de milhares de usuários ao redor do mundo. Uma pesquisa Netcraft de Maio de 1998 apontou que cerca de 60.000 domínios relataram ter cabeçalhos contendo “PHP”, indicando que o servidor de hospedagem de fato tinha o PHP instalado. Este número pode ser equiparado com aproximadamente 1% de todos os domínios da Internet na época.
+        </p>
+
+        <h2 class="h1">PHP 3</h2>
+        <p class="fomataçao-texto">
+            Dentro da história do PHP, o PHP 3.0 foi a primeira versão que se assemelha com o PHP como existe hoje.
+            O PHP/FI se encontrava ainda ineficiente e não tinha os recursos necessários para prover a aplicação e-commerce que Andi Gutmans e Zeev Suraski, de Tel Aviv, Israel, estavam desenvolvendo para um projeto da universidade. Por isso, eles começaram outra reescrita completa do interpretador em 1997, quando eles discutiram vários aspectos para a corrente implementação e re-desenvolvimento do PHP.
+            Andi, Rasmus e Zeev decidiram colaborar no desenvolvimento de uma nova e independente linguagem de programação, que foi lançada com novo e removeu a impressão do limitado uso pessoal que o nome PHP/FI 2.0 tinha mantido. O projeto foi renomeado simplesmente para ‘PHP’, com o significado se tornando um acrônimo recursivo – PHP: Hypertext Preprocessor.
+        </p>
+
+        <br>
+<!--cubo-->
+        <div class="box">
+            <div class="cubo">
+                <div class="cara" id="um"></div>
+                <div class="cara" id="dois"></div>
+                <div class="cara" id="tres"></div>
+                <div class="cara" id="quatro"></div>
+                <div class="cara" id="cinco"></div>
+                <div class="cara" id="seis"></div>
+            </div>
+        </div>
+
+        <br>
+
+        <h2 class="h1">PHP 4</h2>
+        <p class="fomataçao-texto">
+            Em 1998, logo após o PHP 3.0 ter sido oficialmente lançado, Andi Gutmans e Zeev Suraski começaram a trabalhar em uma reescrita do core do PHP. Os objetivos do projeto eram melhorar a performance das aplicações complexas e melhorar a modularização do código base do PHP.
+            O novo motor, chamado ‘Zend Engine’ (composto pelos primeiros nome, Zeev e Andi), alcançou os objetivos do projeto com sucesso, e foi introduzido em meados de 1999. O PHP 4.0, baseado neste motor, e uma variedade de novos recursos adicionais foram oficialmente lançados em maio de 2000, quase dois anos após seu antecessor.
+        </p>
+
+        <h2 class="h1">PHP 5</h2>
+        <p class="fomataçao-texto">
+            O PHP 5 foi lançado em julho de 2004, após um longo desenvolvimento e vários pré-lançamentos. Impulsionado principalmente pelo seu core o Zend Engine 2.0, com um novo modelo de objeto e dezenas de outros novos recursos.
+            O time de desenvolvimento do PHP incluiu dezenas de desenvolvedores trabalhando em algo relacionado ao PHP e apoiando projetos como PEAR, PECL, documentação e infraestrutura de rede subjacente de bem mais de uma centena de servidores web em seis dos sete continentes do mundo. Embora seja apenas uma estimativa baseada nas estatísticas de anos anteriores, é seguro presumir que o PHP está agora instalado em dezenas, talvez centenas de milhões de domínios em todo mundo.
+        </p>
+        
+        <h2 class="h1">HHVM – Hack</h2>
+        <p class="fomataçao-texto">
+            Entre a versão 5 e a versão 7 do PHP que temos hoje se passaram 11 anos.
+            Neste meio tempo muitas empresas adotaram o PHP como linguagem principal para desenvolvimento de seus sistemas, como por exemplo, o Facebook. A rede de Mark Zuckerberg, por sua vez, ao ver que se passaram anos sem uma evolução significativa e sem o lançamento de novas versões do PHP, começou a desenvolver a linguagem Hack baseada em PHP e executada em cima do HHVM (HipHop Virtual Machine).
+        </p>
+
+        <p class="fomataçao-texto">
+            Em dezembro de 2015 houve um PHP 6. Ou pelo menos uma tentativa dele. Porém, o resultado não foi satisfatório e a versão não foi publicada oficialmente, mas existiam informações sobre essa versão. Logo poderia haver confusão se esta nova versão se chamasse PHP 6. Então, para evitar esses problemas, a equipe do PHP resolveu chamar a nova versão de PHP 7.
+            Outro motivo é que tinha muito charlatão por aí vendendo livros, cursos e aulas sobre o PHP 6, que nem sequer existia oficialmente. Se quiser saber mais sobre os diversos motivos dessa escolha, leia o RFC oficial sobre a discussão sobre o nome da versão do PHP.
+        </p>
+
+        <div id="foto-texto">
+            <img class="foto-do-texto" src="img/php-elefante.png" alt="">
+        </div>
+        
+        <h2 class="h1">PHP 7</h2>
+
+        <p class="fomataçao-texto">
+            A história do PHP ainda não terminou! Em dezembro de 2015, após anos de desenvolvimento, é lançado oficialmente o PHP 7.  Entre as novidades mais significativas da versão 7 do PHP está a sua performance, em alguns casos até 9 vezes mais rápida.
+        </p>
+
+        <h2 class="h1">Tendência histórica do uso de PHP na Web</h2>
+
+        <p class="fomataçao-texto">
+            A tendência histórica do uso de linguagens server-side na web nos últimos 8 anos, no qual a linguagem PHP sempre esteve como mais utilizada tendo pequenas oscilações, que se encaixam com sua história.
+            Hoje, grandes empresas no mercado utilizam essa linguagem como principal para o desenvolvimento de seus sistemas.
+            Empresas como Facebook, que iniciou utilizando PHP e depois desenvolveu sua própria linguagem baseada em PHP; Wikipedia, que utiliza um dos inúmeros CMS desenvolvidos em PHP e outras empresas conhecidas como Twitter, MailChimp, Yahoo, Slack, BMW, KingHost, entre outros.
+        </p>
+
+        <h2 class="h1">Em Que Ambientes Utilizar o PHP ? (Lucas Barros)</h2>
+        <p class="fomataçao-texto">
+            • Criação de Páginas: O PHP é utilizado por grande parte dos sites por ser
+            capaz de criar páginas estáticas e até mesmo dinâmicas.</br>
+            • Criação de aplicativos para E-commerce: Também é utilizado para criação de
+            aplicativos de lojas virtuais.</br>
+            • Criação de tabelas e gráficos.</br>
+            • Criação de arquivos PDF: Como é capaz de ser incorporado ao HTML, o PHP
+            pode ser usado para a criação de faturas em PDF.</br>
+            • Criação de imagens em Flash: Pode ser usado para criar imagens e até mesmo
+            animações em flash para páginas e aplicativos.</br>
+            • Em outros casos, o PHP também pode ser utilizado como back end. Seja
+            coletando dados ou enviando e recebendo cookies.</br>
+        </p>
+        <!--rank dos salarios-->
+
+        <h2 class="h1">Tabela De Salario</h2>
+
+        <div id="box" class="">
+            <div class="box-salario">
+                <p class="nome-tec">Python</p>
+                <p class="salario">R$ 7.100,00 <br> mensal</p>
+            </div>
+
+            <div class="box-salario">
+                <p class="nome-tec">C#</p>
+                <p class="salario">R$ 6.450,00 <br> mensal</p>
+            </div>
+
+            <div class="box-salario">
+                <p class="nome-tec">JavaScript</p>
+                <p class="salario">R$ 5.400,00 <br> mensal</p>
+            </div>
+
+            <div class="box-salario">
+                <p class="nome-tec">tecnologia</p>
+                <p class="salario">R$ 3.700,00 <br> mensal</p>
+            </div>
+        </div>
+
+        <!--rank dos salarios top 10-->
+
+        <h2 class="h1">Rank Top 10 tecnologia Mais Bem Paga</h2>
+
+        <div class="tabela-top-10">
+            <div class="row">
+                <div class="col col-lg-2 bg-success">1</div>
+                <div class="col bg-success">Programador Elixir/Go/Scala</div>
+                <div class="col bg-success">11.000,00</div>
+            </div>
+    
+            <div class="row">
+                <div class="col col-lg-2 bg-success">2</div>
+                <div class="col bg-success">Programador iOS</div>
+                <div class="col bg-success">10.500,00</div>
+            </div>
+    
+            <div class="row">
+                <div class="col col-lg-2 bg-success">3</div>
+                <div class="col bg-success">Programador Kotlin</div>
+                <div class="col bg-success">9.500,00</div>
+            </div>
+    
+            <div class="row">
+                <div class="col col-lg-2 bg-success">4</div>
+                <div class="col bg-success">Programador Swift</div>
+                <div class="col bg-success">9.400,00</div>
+            </div>
+    
+            <div class="row">
+                <div class="col col-lg-2 bg-success">5</div>
+                <div class="col bg-success">Programador Java</div>
+                <div class="col bg-success">7.400,00</div>
+            </div>
+    
+            <div class="row">
+                <div class="col col-lg-2 bg-success">6</div>
+                <div class="col bg-success">Programador Android</div>
+                <div class="col bg-success">7.190,00</div>
+            </div>
+    
+            <div class="row">
+                <div class="col col-lg-2 bg-primary">7</div>
+                <div class="col bg-primary">Programador Python</div>
+                <div class="col bg-primary">7.100,00</div>
+            </div>
+    
+            <div class="row">
+                <div class="col col-lg-2 bg-primary">8</div>
+                <div class="col bg-primary">Programador C#</div>
+                <div class="col bg-primary">6.450,00</div>
+            </div>
+    
+            <div class="row">
+                <div class="col col-lg-2 bg-success">9</div>
+                <div class="col bg-success">Programador C</div>
+                <div class="col bg-success">5.300,00</div>
+            </div>
+    
+            <div class="row">
+                <div class="col col-lg-2 bg-primary">10</div>
+                <div class="col bg-primary">Programador JavaScript</div>
+                <div class="col bg-primary">5.400,00</div>
+            </div>
+    
+            <div class="row">
+                <div class="col col-lg-2 bg-primary">13</div>
+                <div class="col bg-primary">Programador PHP</div>
+                <div class="col bg-primary">3.700,00</div>
+            </div>
+        </div>
+        <!--team-->
+        <h2 class="h1">Team PHP</h2>
+
+        <div class="box-avatar d-flex justify-content-around">
+
+            <figure class="figure">
+                <img src="img/perfil-menino.jpg" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="figure-caption">Nome: Alexandre Castro</figcaption>
+                <figcaption class="figure-caption">Cargo: Programador</figcaption>
+              </figure>
+
+              <figure class="figure">
+                <img src="img/perfil-menino.jpg" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="figure-caption">Nome: Marcio Alves</figcaption>
+                <figcaption class="figure-caption">Cargo: Programador</figcaption>
+              </figure>
+
+              <figure class="figure">
+                <img src="img/perfil-menino.jpg" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="figure-caption">Nome: Lucas Barros</figcaption>
+                <figcaption class="figure-caption">Cargo: Programador</figcaption>
+              </figure>
+
+              <figure class="figure">
+                <img src="img/perfil-menina.jpg" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="figure-caption">Nome: Júlia Talita</figcaption>
+                <figcaption class="figure-caption">Cargo: Programadora</figcaption>
+              </figure>
+
+              <figure class="figure">
+                <img src="img/perfil-menino.jpg" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="figure-caption">Nome:</figcaption>
+                <figcaption class="figure-caption">Cargo: Programador</figcaption>
+              </figure>
+        </div> 
+
+        <footer class="bg-black">
+            <div class="bloco-a">
+                <h5 class="h6">Inspirado em:</h5>
+                <p class="texto-footer">site: blog.geekhunter.com.br</p>
+                <p class="texto-footer">site: king.host/blog</p>
+            </div>
+
+            <span class="barra-1"></span>
+
+            <div class="bloco">
+                <h6 class="h6">Participação de:</h6>
+                <p class="texto-footer">Alexandre Castro</p>
+                <p class="texto-footer">Marcio Alves</p>
+                <p class="texto-footer">Lucas Barros</p>
+                <p class="texto-footer">Júlia Talita</p>
+                <p class="texto-footer">nome</p>
+            </div>
+
+            <span class="barra-2"></span>
+
+            <div class="bloco">
+                <h6 class="h6">Contatos</h6>
+                <p class="texto-footer">tel: 13 9999-9999</p>
+                <p class="texto-footer">tel: 13 9999-9999</p>
+                <p class="texto-footer">tel: 13 9999-9999</p>
+                <p class="texto-footer">tel: 13 9999-9999</p>
+                <p class="texto-footer">tel: 13 9999-9999</p>
+            </div>
+        </footer>
+        
+   </div>
+</body>
+</html>
